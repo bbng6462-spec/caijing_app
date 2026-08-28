@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "name": "caijing-zaozhidao",
   "build": {
-    "nodejs": "18.x",
     "installCommand": "npm install --legacy-peer-deps && npm install ajv@8.17.1 ajv-keywords@5.1.0 --legacy-peer-deps --no-save"
   },
   "crons": [
