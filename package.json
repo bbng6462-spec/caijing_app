@@ -4,7 +4,7 @@
   "private": true,
   "description": "财经早知道 - 大白话解读财经资讯",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "overrides": {
     "ajv": "^8.17.1",
