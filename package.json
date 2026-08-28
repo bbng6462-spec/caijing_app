@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "财经早知道 - 大白话解读财经资讯",
+  "engines": {
+    "node": "18.x"
+  },
+  "overrides": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0"
+  },
   "templateInfo": {
     "name": "react",
     "typescript": true,
