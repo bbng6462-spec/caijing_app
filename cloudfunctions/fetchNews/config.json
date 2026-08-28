@@ -1,0 +1,14 @@
+{
+  "triggers": [
+    {
+      "name": "fetch-morning",
+      "type": "timer",
+      "config": "0 0 7 * * * *"
+    },
+    {
+      "name": "fetch-evening",
+      "type": "timer",
+      "config": "0 0 20 * * * *"
+    }
+  ]
+}

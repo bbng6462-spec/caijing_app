@@ -1,0 +1,17 @@
+@use '@/styles/variables.scss' as *;
+
+.wrap {
+  @include flex-center;
+  flex-direction: column;
+  padding: 120rpx 0;
+}
+
+.emoji {
+  font-size: 88rpx;
+  margin-bottom: $spacing-md;
+}
+
+.text {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}

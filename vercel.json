@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "name": "caijing-zaozhidao",
+  "crons": [
+    {
+      "path": "/api/fetchNews",
+      "schedule": "0 7 * * *"
+    },
+    {
+      "path": "/api/fetchNews",
+      "schedule": "0 20 * * *"
+    }
+  ],
+  "functions": {
+    "api/fetchNews.ts": {
+      "maxDuration": 60
+    }
+  }
+}

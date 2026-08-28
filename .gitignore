@@ -1,0 +1,29 @@
+# 依赖目录（不提交，部署时自动安装）
+node_modules/
+
+# 构建输出
+dist/
+.taro/
+
+# 环境变量（防止泄露 key）
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
+
+# 缓存
+.pai/
+.cache/

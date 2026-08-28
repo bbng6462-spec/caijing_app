@@ -1,0 +1,54 @@
+// ============================================
+// 主题配色变量（第二阶段模型可修改此文件）
+// ============================================
+
+// 品牌主题色：根据产品品牌定位修改
+$color-primary: #165dff;
+$color-primary-light: #4080ff;
+$color-primary-dark: #0e42d2;
+
+// 功能色
+$color-success: #00b42a;
+$color-warning: #ff7d00;
+$color-error: #f53f3f;
+$color-info: #165dff;
+
+// 背景色
+$color-bg-page: #f5f6f7;
+$color-bg-card: #ffffff;
+$color-bg-hover: #f2f3f5;
+
+// 文本色
+$color-text-primary: #1d2129;
+$color-text-secondary: #4e5969;
+$color-text-tertiary: #86909c;
+$color-text-disabled: #c9cdd4;
+$color-text-white: #ffffff;
+
+// 边框色
+$color-border: #e5e6eb;
+$color-divider: #f2f3f5;
+
+// ============================================
+// 财经早知道 业务变量
+// ============================================
+
+// 品牌主题色（金融蓝）
+$color-primary: #1d4ed8;
+$color-primary-light: #4f79f0;
+$color-primary-dark: #16389f;
+
+// 行情语义色（中国市场：涨红跌绿）
+$color-rise: #f53f3f;
+$color-fall: #00b42a;
+
+// 板块金色点缀
+$color-gold: #d9a514;
+$color-gold-light: #faf3df;
+
+// 板块标签底色
+$color-tag-bg: #eef3ff;
+$color-tag-text: #1d4ed8;
+
+// 早报头部渐变
+$gradient-header: linear-gradient(160deg, #1d4ed8 0%, #4f79f0 100%);

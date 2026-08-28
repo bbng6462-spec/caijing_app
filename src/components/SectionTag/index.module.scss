@@ -1,0 +1,43 @@
+@use '@/styles/variables.scss' as *;
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: $color-tag-bg;
+  border-radius: $radius-round;
+  max-width: 100%;
+
+  .emoji {
+    margin-right: 4rpx;
+  }
+
+  .name {
+    color: $color-tag-text;
+    font-weight: $font-weight-medium;
+    @include text-ellipsis;
+  }
+}
+
+.sm {
+  padding: 4rpx 16rpx;
+
+  .emoji {
+    font-size: 20rpx;
+  }
+
+  .name {
+    font-size: $font-size-xs;
+  }
+}
+
+.md {
+  padding: 8rpx 24rpx;
+
+  .emoji {
+    font-size: 24rpx;
+  }
+
+  .name {
+    font-size: $font-size-sm;
+  }
+}
